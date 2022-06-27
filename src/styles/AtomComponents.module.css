@@ -1,0 +1,30 @@
+.table-list {
+    padding: 15px 10px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.button-details {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    padding: 0 .8em;
+    background-color: rgb(245 158 11);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.table-header {
+    color: var(--text-primary);
+    text-transform: capitalize;
+}
+
+.button-details:hover{
+    background-color: rgb(212, 144, 27);
+}

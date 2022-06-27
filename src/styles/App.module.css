@@ -1,0 +1,14 @@
+.table{
+    padding: 16px;
+    width: 100%;
+    border-radius: 16px;
+    background-color: #E5E5E5;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.container{
+    padding: 16px;
+}
