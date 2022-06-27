@@ -27,7 +27,7 @@ function App() {
         start_registration: dateFormatter(item.start_registration),
         end_registration: dateFormatter(item.end_registration),
         detail: (
-          <ButtonLinkDetail href={URL_DETAIL_MAGANG(data.mitra_id, data.id)}>
+          <ButtonLinkDetail href={URL_DETAIL_MAGANG(item.mitra_id, item.id)}>
             Details
           </ButtonLinkDetail>
         ),
