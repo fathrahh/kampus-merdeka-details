@@ -1,0 +1,45 @@
+.loading{
+  position: absolute;
+  padding: 24px;
+  bottom: 50%;
+  left: 50%;
+  border-radius: 10px;
+  transform: translate(-50%,50%);
+  background-color: white;
+  -webkit-transform: translate(-50%,50%);
+  -moz-transform: translate(-50%,50%);
+  -ms-transform: translate(-50%,50%);
+  -o-transform: translate(-50%,50%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.loading__title{
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.donut {
+    width: 4rem;
+    height: 4rem;
+    margin: 3rem;
+    border-radius: 50%;
+    border: 0.8rem solid rgba(0, 0, 0, 0.303);
+    border-top-color: black;
+    animation: 1.2s spin infinite linear;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-animation: 1.2s spin infinite linear;
+}
+
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,20 @@
+.header{
+    padding: 10px;
+    position: sticky;
+    background-color: #E4E4E4;
+    box-shadow: 0 1px 6px gray;
+}
+
+.list{
+    display: flex;
+    gap: 24px;
+}
+
+.header__item{
+    color: black;
+    font-weight: 700;
+}
+
+.header__item:hover{
+    color: rgb(77, 64, 64);
+}

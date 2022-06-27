@@ -2,9 +2,21 @@
     --text-primary : #14213D
 }
 
+*,*::after,*::before{
+    box-sizing: border-box;
+}
+
+a,a:visited{
+    text-decoration: none;
+}
+
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     background-color: #14213D;
+}
+
+ul{
+    list-style: none;
 }
