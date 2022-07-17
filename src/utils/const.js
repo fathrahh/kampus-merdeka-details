@@ -28,6 +28,11 @@ export const colTable = [
   {
     name: "Name",
     selector: (row) => row.name,
+    wrap: true,
+    style: {
+      paddingTop: 10,
+      paddingBottom: 10,
+    },
   },
   {
     name: "Mitra",
@@ -80,6 +85,11 @@ export const colTableStupen = [
   {
     name: "Name",
     selector: (row) => row.name,
+    wrap: true,
+    style: {
+      paddingTop: 10,
+      paddingBottom: 10,
+    },
   },
   {
     name: "Mitra",
